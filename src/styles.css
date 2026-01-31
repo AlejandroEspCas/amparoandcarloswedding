@@ -2,9 +2,20 @@
 
 @import 'tailwindcss';
 
+@font-face {
+  font-family: 'Optima';
+  src: url(../public/fonts/optima/OPTIMA.TTF);
+}
+
+@font-face {
+  font-family: 'Sharis';
+  src: url(../public/fonts/sharis-serif/TTF/Sharis-Light.ttf);
+}
+
 :root {
   --bg-primary: #eeede7;
   --bg-secondary: #020202;
   --text-primary: #eeede7;
   --text-primary: #020202;
+  --button-hover: #c4c2b9;
 }

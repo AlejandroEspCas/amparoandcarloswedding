@@ -1,0 +1,19 @@
+.button-comp {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-comp:hover {
+  background-color: var(--button-hover);
+}
+
+.sizes {
+  padding: 0.5vw 2.5vw 0.5vw 2.5vw;
+}
+
+.fonts {
+  font-family: 'Optima';
+  font-size: 1.2vw;
+}

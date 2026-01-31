@@ -1,0 +1,81 @@
+{
+  "SECTION_TOP": {
+    "TITLE": "Amparo & Carlos",
+    "DATE": "10 OCTUBRE 2026",
+    "FRASE": "always and forever"
+  },
+  "SECTION_HISTORY": {
+    "TITLE": "Nuestra historia",
+    "DESCRIPTION": "Fue en diciembre de 2014 cuando intercambiamos un “gusto en conocerte” y en agosto de 2017 fue cuando nuestros caminos se volvieron a cruzar, después de una cita muy patriótica de 16 de septiembre  los fines de semana fueron nuestros y fuimos inseparables.No tardamos mucho en amarnos incondicionalmente y convertirnos en una familia junto con nuestra hija Sofía. 8 años después de tantas aventuras y buenos momentos estamos complacidos en invitarlos a la celebración de nuestro amor"
+  },
+  "SECTION_CEREMONY_RECEPTION": {
+    "TITLE": "Ceremonia y recepción",
+    "CEREMONY": {
+      "TITLE": "Ceremonia",
+      "DESCRIPTION": "La ceremonia de unión será en la Hacienda murmullo de agua, Valle de Guadalupe, BC"
+    },
+    "DRESS_CODE": {
+      "TITLE": "Dress code",
+      "DESCRIPTION": "Formal attire, Mujeres : bienvenidos vestidos midi y largos, con flores o románticos (la decisión es tuya) por favor evitar blanco o rojo. hombres: formal, saco y corbata "
+    },
+    "RECEPTION": {
+      "TITLE": "Recepción",
+      "DESCRIPTION": "La celebración será llevada a cabo en la Hacienda murmullo de Agua, Valle de Guadalupe, BC"
+    }
+  },
+  "SECTION_CRONOGRAM": {
+    "TITLE": "Cronograma del evento",
+    "SUBTITLE": "Sábado 10 de octubre 2026",
+    "TABLE": {
+      "ROW_CEREMONY": {
+        "HOUR": "5:00 PM",
+        "TITLE": "Ceremonia"
+      },
+      "ROW_BAR": {
+        "HOUR": "6:00 PM ",
+        "TITLE": "Open Bar "
+      },
+      "ROW_DINNER": {
+        "HOUR": "7:00 PM",
+        "TITLE": "Cena"
+      }
+    }
+  },
+  "SECTION_GIFTS": {
+    "PRIMARY_TITLE": "Nuestro mayor regalo es contar con tu asistencia",
+    "SECONDARY_TITLE": "Sin embargo si gustan hacernos un obsequio lo apreciamos mucho en la lluvia de sobres o en forma de gift cards: Target, Walmart o Costco Shop Cards"
+  },
+  "SECTION_LOCATIONS": {
+    "PRIMARY_SECTION": {
+      "TITLE": "La ubicación de la ceremonia y recepción será en Hacienda Murmullo de Agua",
+      "SUBTITLE": "Direccion: 22766 Francisco Zarco, B.C.",
+      "LINK": "¿Cómo llegar?"
+    },
+    "SECONDARY_SECTION": {
+      "TITLE": "¿Dónde hospedarme?",
+      "SUBTITLE": "Sabemos que es camino largo de regreso a casa y agradecemos muchísimo el que nos acompañen en nuestro día especial fuera de la ciudad. Para quienes desean hospedarse en Valle de Guadalupe aquí algunas de las opciones:",
+      "DOTS": {
+        "ONE": "En Airbnb “Finca MD”",
+        "TWO": "Tierra Mía Hacienda ruta del Vino",
+        "THREE": "Maglén Resort",
+        "FOUR": "Casa Mayoral",
+        "FIVE": "Sol del Valle",
+        "SIX": "City Express Plus Ensenada"
+      }
+    }
+  },
+  "SECTION_CONTACTS": {
+    "TITLE": "CONTACTANOS",
+    "PRIMARY_CONTACT": {
+      "NAME": "Carlos Armas",
+      "PHONE": "(664)698-6758",
+      "MAIL": "juancarlosarmas@gmail.com"
+    },
+    "SECONDARY_CONTACT": {
+      "NAME": "Amparo Espinoza",
+      "PHONE": "(664)361-7687",
+      "MAIL": "amps.espinoza@gmail.com"
+    },
+    "BUTTON": "RSVP"
+  }
+}
