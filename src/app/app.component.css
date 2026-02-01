@@ -1,0 +1,20 @@
+.language-toggle-wrapper {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 1000;
+}
+
+@media (min-width: 768px) {
+    .language-toggle-wrapper {
+        top: 2.5rem;
+        right: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .language-toggle-wrapper {
+        top: 3rem;
+        right: 3rem;
+    }
+}

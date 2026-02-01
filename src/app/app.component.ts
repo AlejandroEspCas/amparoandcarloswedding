@@ -9,6 +9,7 @@ import { Section5ScheduleComponent } from './sections/section-5-schedule/section
 import { Section6GiftsComponent } from './sections/section-6-gifts/section-6-gifts.component';
 import { Section7LocationComponent } from './sections/section-7-location/section-7-location.component';
 import { Section8FooterComponent } from './sections/section-8-footer/section-8-footer.component';
+import { LanguageToggleComponent } from './components/language-toggle/language-toggle.component';
 
 @Component({
   selector: 'app-root',
@@ -21,6 +22,7 @@ import { Section8FooterComponent } from './sections/section-8-footer/section-8-f
     Section6GiftsComponent,
     Section7LocationComponent,
     Section8FooterComponent,
+    LanguageToggleComponent,
     RouterOutlet
   ],
   templateUrl: './app.component.html',

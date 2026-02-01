@@ -15,8 +15,8 @@
       "DESCRIPTION": "La ceremonia de unión será en la Hacienda murmullo de agua, Valle de Guadalupe, BC"
     },
     "DRESS_CODE": {
-      "TITLE": "Dress code",
-      "DESCRIPTION": "Formal attire, Mujeres : bienvenidos vestidos midi y largos, con flores o románticos (la decisión es tuya) por favor evitar blanco o rojo. hombres: formal, saco y corbata "
+      "TITLE": "Código de vestimenta",
+      "DESCRIPTION": "Vestimenta formal, Mujeres : bienvenidos vestidos midi y largos, con flores o románticos (la decisión es tuya) por favor evitar blanco o rojo. Hombres: formal, saco y corbata "
     },
     "RECEPTION": {
       "TITLE": "Recepción",
@@ -33,7 +33,7 @@
       },
       {
         "TIME": "6:00 PM",
-        "EVENT": "Open Bar"
+        "EVENT": "Barra libre"
       },
       {
         "TIME": "7:00 PM",
@@ -43,7 +43,7 @@
   },
   "SECTION_GIFTS": {
     "TITLE": "Nuestro mayor regalo es contar con tu asistencia",
-    "DESCRIPTION": "Sin embargo si gustan hacernos un obsequio lo apreciamos mucho en la lluvia de sobres o en forma de gift cards: Target, Walmart o Costco Shop Cards 🤍✉️"
+    "DESCRIPTION": "Sin embargo si gustan hacernos un obsequio lo apreciamos mucho en la lluvia de sobres o en forma de tarjetas de regalo: Target, Walmart o Costco 🤍✉️"
   },
   "SECTION_LOCATION": {
     "INTRO": "La ubicación de la ceremonia y recepción será en",
@@ -80,8 +80,8 @@
     ]
   },
   "SECTION_FOOTER": {
-    "TITLE": "Get in touch",
-    "RSVP": "RSVP",
+    "TITLE": "Contacto",
+    "RSVP": "Confirmar Asistencia",
     "CONTACTS": [
       {
         "NAME": "Carlos Armas",
