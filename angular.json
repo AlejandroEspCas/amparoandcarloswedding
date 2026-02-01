@@ -26,6 +26,11 @@
                 "glob": "**/*",
                 "input": "src/i18n",
                 "output": "/i18n"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/images",
+                "output": "/images"
               }
             ],
             "styles": [
