@@ -4,11 +4,13 @@ import { ContactsLinks } from './components/contacts-links/contacts-links.compon
 import { Section1Component } from './sections/section-1/section-1.component';
 import { TranslateService } from '@ngx-translate/core';
 import { RouterOutlet } from '@angular/router';
+import { Section2HistoryComponent } from './sections/section-2-history/section-2-history.component';
 
 @Component({
   selector: 'app-root',
   imports: [
     Section1Component,
+    Section2HistoryComponent,
     RouterOutlet
   ],
   templateUrl: './app.component.html',

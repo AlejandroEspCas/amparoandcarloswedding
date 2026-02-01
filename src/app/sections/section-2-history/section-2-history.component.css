@@ -1,0 +1,151 @@
+/* SECTION CONTAINER */
+.history-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e8e4dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+}
+
+/* GRID CONTAINER */
+.history-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 1400px;
+    width: 100%;
+    align-items: center;
+}
+
+/* TITLE WRAPPER */
+.history-title-wrapper {
+    text-align: center;
+}
+
+/* TITLE STYLES */
+:host ::ng-deep .history-title {
+    font-size: 2.5rem;
+    font-family: serif;
+    color: #2c2c2c;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+/* IMAGE WRAPPER */
+.history-image-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+/* IMAGE CONTAINER */
+:host ::ng-deep .history-image-container {
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 1 / 1;
+}
+
+/* IMAGE */
+:host ::ng-deep .history-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+/* DESCRIPTION WRAPPER */
+.history-description-wrapper {
+    text-align: left;
+}
+
+/* DESCRIPTION TEXT */
+:host ::ng-deep .history-description {
+    font-size: 0.95rem;
+    font-family: sans-serif;
+    color: #2c2c2c;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+/* PHONE */
+@media (min-width: 768px) {
+    .history-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .history-title-wrapper {
+        grid-column: 1;
+        grid-row: 1;
+        text-align: left;
+    }
+
+    .history-image-wrapper {
+        grid-column: 1 / 3;
+        grid-row: 2;
+        padding: 0 3rem;
+    }
+
+    .history-description-wrapper {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    :host ::ng-deep .history-title {
+        font-size: 3rem;
+    }
+
+    :host ::ng-deep .history-description {
+        font-size: 1rem;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+    .history-container {
+        grid-template-columns: 0.8fr 1.75fr 0.8fr;
+        gap: 4rem;
+        align-items: center;
+    }
+
+    .history-title-wrapper {
+        grid-column: 1;
+        grid-row: 1;
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+
+    .history-image-wrapper {
+        grid-column: 2;
+        grid-row: 1;
+        padding: 0 4rem;
+    }
+
+    .history-description-wrapper {
+        grid-column: 3;
+        grid-row: 1;
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+
+    :host ::ng-deep .history-title {
+        font-size: 3.5rem;
+    }
+
+    :host ::ng-deep .history-image-container {
+        max-width: 700px;
+    }
+
+    :host ::ng-deep .history-description {
+        font-size: 1.05rem;
+        line-height: 2;
+    }
+}
