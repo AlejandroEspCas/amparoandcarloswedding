@@ -8,6 +8,7 @@ import { Section2HistoryComponent } from './sections/section-2-history/section-2
 import { Section3GalleryComponent } from './sections/section-3-gallery/section-3-gallery.component';
 import { Section4DescriptionComponent } from './sections/section-4-description/section-4-description.component';
 import { Section5ScheduleComponent } from './sections/section-5-schedule/section-5-schedule.component';
+import { Section6GiftsComponent } from './sections/section-6-gifts/section-6-gifts.component';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +18,7 @@ import { Section5ScheduleComponent } from './sections/section-5-schedule/section
     Section3GalleryComponent,
     Section4DescriptionComponent,
     Section5ScheduleComponent,
+    Section6GiftsComponent,
     RouterOutlet
   ],
   templateUrl: './app.component.html',

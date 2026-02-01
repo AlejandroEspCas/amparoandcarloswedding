@@ -24,26 +24,26 @@
     }
   },
   "SECTION_CRONOGRAM": {
-  "TITLE": "Cronograma del evento",
-  "DATE": "Sábado 10 de octubre 2026",
-  "ITEMS": [
-    {
-      "TIME": "5:00 PM",
-      "EVENT": "Ceremonia"
-    },
-    {
-      "TIME": "6:00 PM",
-      "EVENT": "Open Bar"
-    },
-    {
-      "TIME": "7:00 PM",
-      "EVENT": "Cena"
-    }
-  ]
-},
+    "TITLE": "Cronograma del evento",
+    "DATE": "Sábado 10 de octubre 2026",
+    "ITEMS": [
+      {
+        "TIME": "5:00 PM",
+        "EVENT": "Ceremonia"
+      },
+      {
+        "TIME": "6:00 PM",
+        "EVENT": "Open Bar"
+      },
+      {
+        "TIME": "7:00 PM",
+        "EVENT": "Cena"
+      }
+    ]
+  },
   "SECTION_GIFTS": {
-    "PRIMARY_TITLE": "Nuestro mayor regalo es contar con tu asistencia",
-    "SECONDARY_TITLE": "Sin embargo si gustan hacernos un obsequio lo apreciamos mucho en la lluvia de sobres o en forma de gift cards: Target, Walmart o Costco Shop Cards"
+    "TITLE": "Nuestro mayor regalo es contar con tu asistencia",
+    "DESCRIPTION": "Sin embargo si gustan hacernos un obsequio lo apreciamos mucho en la lluvia de sobres o en forma de gift cards: Target, Walmart o Costco Shop Cards 🤍✉️"
   },
   "SECTION_LOCATIONS": {
     "PRIMARY_SECTION": {
