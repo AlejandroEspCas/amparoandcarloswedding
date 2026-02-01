@@ -1,81 +1,98 @@
 {
   "SECTION_TOP": {
     "TITLE": "Amparo & Carlos",
-    "DATE": "10 OCTUBRE 2026",
+    "DATE": "OCTOBER 10, 2026",
     "FRASE": "always and forever"
   },
   "SECTION_HISTORY": {
-    "TITLE": "Nuestra historia",
-    "DESCRIPTION": "Fue en diciembre de 2014 cuando intercambiamos un “gusto en conocerte” y en agosto de 2017 fue cuando nuestros caminos se volvieron a cruzar, después de una cita muy patriótica de 16 de septiembre  los fines de semana fueron nuestros y fuimos inseparables.No tardamos mucho en amarnos incondicionalmente y convertirnos en una familia junto con nuestra hija Sofía. 8 años después de tantas aventuras y buenos momentos estamos complacidos en invitarlos a la celebración de nuestro amor"
+    "TITLE": "Our Story",
+    "DESCRIPTION": "It was in December 2014 when we exchanged a 'nice to meet you,' and in August 2017 our paths crossed again. After a very patriotic date on September 16th, the weekends became ours, and we became inseparable. It didn't take long for us to love each other unconditionally and become a family together with our daughter Sofía. 8 years later, after so many adventures and good times, we are pleased to invite you to the celebration of our love."
   },
   "SECTION_CEREMONY_RECEPTION": {
-    "TITLE": "Ceremonia y recepción",
+    "TITLE": "Ceremony & Reception",
     "CEREMONY": {
-      "TITLE": "Ceremonia",
-      "DESCRIPTION": "La ceremonia de unión será en la Hacienda murmullo de agua, Valle de Guadalupe, BC"
+      "TITLE": "Ceremony",
+      "DESCRIPTION": "The wedding ceremony will take place at Hacienda Murmullo de Agua, Valle de Guadalupe, BC."
     },
     "DRESS_CODE": {
       "TITLE": "Dress code",
-      "DESCRIPTION": "Formal attire, Mujeres : bienvenidos vestidos midi y largos, con flores o románticos (la decisión es tuya) por favor evitar blanco o rojo. hombres: formal, saco y corbata "
+      "DESCRIPTION": "Formal attire. Women: Midi and long dresses are welcome, floral or romantic (the choice is yours); please avoid white or red. Men: Formal, suit and tie."
     },
     "RECEPTION": {
-      "TITLE": "Recepción",
-      "DESCRIPTION": "La celebración será llevada a cabo en la Hacienda murmullo de Agua, Valle de Guadalupe, BC"
+      "TITLE": "Reception",
+      "DESCRIPTION": "The celebration will be held at Hacienda Murmullo de Agua, Valle de Guadalupe, BC."
     }
   },
   "SECTION_CRONOGRAM": {
-    "TITLE": "Cronograma del evento",
-    "SUBTITLE": "Sábado 10 de octubre 2026",
-    "TABLE": {
-      "ROW_CEREMONY": {
-        "HOUR": "5:00 PM",
-        "TITLE": "Ceremonia"
+    "TITLE": "Event Schedule",
+    "DATE": "Saturday, October 10, 2026",
+    "ITEMS": [
+      {
+        "TIME": "5:00 PM",
+        "EVENT": "Ceremony"
       },
-      "ROW_BAR": {
-        "HOUR": "6:00 PM ",
-        "TITLE": "Open Bar "
+      {
+        "TIME": "6:00 PM",
+        "EVENT": "Open Bar"
       },
-      "ROW_DINNER": {
-        "HOUR": "7:00 PM",
-        "TITLE": "Cena"
+      {
+        "TIME": "7:00 PM",
+        "EVENT": "Dinner"
       }
-    }
+    ]
   },
   "SECTION_GIFTS": {
-    "PRIMARY_TITLE": "Nuestro mayor regalo es contar con tu asistencia",
-    "SECONDARY_TITLE": "Sin embargo si gustan hacernos un obsequio lo apreciamos mucho en la lluvia de sobres o en forma de gift cards: Target, Walmart o Costco Shop Cards"
+    "TITLE": "Our greatest gift is your presence",
+    "DESCRIPTION": "However, if you wish to give us a present, we would greatly appreciate a monetary gift (envelope) or gift cards: Target, Walmart, or Costco Shop Cards 🤍✉️"
   },
-  "SECTION_LOCATIONS": {
-    "PRIMARY_SECTION": {
-      "TITLE": "La ubicación de la ceremonia y recepción será en Hacienda Murmullo de Agua",
-      "SUBTITLE": "Direccion: 22766 Francisco Zarco, B.C.",
-      "LINK": "¿Cómo llegar?"
-    },
-    "SECONDARY_SECTION": {
-      "TITLE": "¿Dónde hospedarme?",
-      "SUBTITLE": "Sabemos que es camino largo de regreso a casa y agradecemos muchísimo el que nos acompañen en nuestro día especial fuera de la ciudad. Para quienes desean hospedarse en Valle de Guadalupe aquí algunas de las opciones:",
-      "DOTS": {
-        "ONE": "En Airbnb “Finca MD”",
-        "TWO": "Tierra Mía Hacienda ruta del Vino",
-        "THREE": "Maglén Resort",
-        "FOUR": "Casa Mayoral",
-        "FIVE": "Sol del Valle",
-        "SIX": "City Express Plus Ensenada"
+  "SECTION_LOCATION": {
+    "INTRO": "The ceremony and reception will be located at",
+    "LOCATION": "Hacienda Murmullo de Agua",
+    "ADDRESS": "Address: 22766 Francisco Zarco, B.C.",
+    "HOW_TO_GET": "How to get there?",
+    "WHERE_TO_STAY": "Where to stay?",
+    "STAY_DESCRIPTION": "We know it is a long way back home, and we greatly appreciate you joining us on our special day out of town. For those wishing to stay in Valle de Guadalupe, here are some options:",
+    "HOTELS": [
+      {
+        "NAME": "Airbnb \"Finca MD\"",
+        "LINK": "#"
+      },
+      {
+        "NAME": "Tierra Mía Hacienda ruta del Vino",
+        "LINK": "#"
+      },
+      {
+        "NAME": "Maglén Resort",
+        "LINK": "#"
+      },
+      {
+        "NAME": "Casa Mayoral",
+        "LINK": "#"
+      },
+      {
+        "NAME": "Sol del Valle",
+        "LINK": "#"
+      },
+      {
+        "NAME": "City Express Plus Ensenada",
+        "LINK": "#"
       }
-    }
+    ]
   },
-  "SECTION_CONTACTS": {
-    "TITLE": "CONTACTANOS",
-    "PRIMARY_CONTACT": {
-      "NAME": "Carlos Armas",
-      "PHONE": "(664)698-6758",
-      "MAIL": "juancarlosarmas@gmail.com"
-    },
-    "SECONDARY_CONTACT": {
-      "NAME": "Amparo Espinoza",
-      "PHONE": "(664)361-7687",
-      "MAIL": "amps.espinoza@gmail.com"
-    },
-    "BUTTON": "RSVP"
+  "SECTION_FOOTER": {
+    "TITLE": "Get in touch",
+    "RSVP": "RSVP",
+    "CONTACTS": [
+      {
+        "NAME": "Carlos Armas",
+        "PHONE": "(664)698-6758",
+        "EMAIL": "juancarloarmas@gmail.com"
+      },
+      {
+        "NAME": "Amparo Espinoza",
+        "PHONE": "(664)361-7687",
+        "EMAIL": "amps.espinoza@gmail.com"
+      }
+    ]
   }
 }
