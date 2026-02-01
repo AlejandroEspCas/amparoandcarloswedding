@@ -79,18 +79,20 @@
       }
     ]
   },
-  "SECTION_CONTACTS": {
-    "TITLE": "CONTACTANOS",
-    "PRIMARY_CONTACT": {
-      "NAME": "Carlos Armas",
-      "PHONE": "(664)698-6758",
-      "MAIL": "juancarlosarmas@gmail.com"
-    },
-    "SECONDARY_CONTACT": {
-      "NAME": "Amparo Espinoza",
-      "PHONE": "(664)361-7687",
-      "MAIL": "amps.espinoza@gmail.com"
-    },
-    "BUTTON": "RSVP"
+  "SECTION_FOOTER": {
+    "TITLE": "Get in touch",
+    "RSVP": "RSVP",
+    "CONTACTS": [
+      {
+        "NAME": "Carlos Armas",
+        "PHONE": "(664)698-6758",
+        "EMAIL": "juancarloarmas@gmail.com"
+      },
+      {
+        "NAME": "Amparo Espinoza",
+        "PHONE": "(664)361-7687",
+        "EMAIL": "amps.espinoza@gmail.com"
+      }
+    ]
   }
 }

@@ -1,8 +1,50 @@
-.icon-class {
-  font-size: 2vw;
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0;
 }
 
-.text-class {
-  font-family: 'Optima';
-  font-size: 2vw;
+.contact-link:hover {
+  opacity: 0.7;
+  transform: translateX(5px);
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
+
+.contact-text {
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .contact-link {
+    font-size: 1.05rem;
+  }
+
+  .contact-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-link {
+    font-size: 1.1rem;
+  }
+
+  .contact-icon {
+    width: 24px;
+    height: 24px;
+  }
 }

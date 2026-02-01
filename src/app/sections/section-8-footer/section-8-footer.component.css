@@ -1,0 +1,199 @@
+/* SECTION CONTAINER */
+.footer-section {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* BACKGROUND IMAGE */
+.footer-image-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+:host ::ng-deep .footer-image-container {
+    width: 100%;
+    height: 100%;
+}
+
+:host ::ng-deep .footer-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+/* FOOTER CONTENT OVERLAY */
+.footer-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.85) 100%);
+    display: flex;
+    align-items: flex-end;
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+}
+
+/* FOOTER CONTAINER */
+.footer-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+
+/* TITLE */
+.footer-title-wrapper {
+    text-align: left;
+}
+
+:host ::ng-deep .footer-title {
+    font-size: 3rem;
+    font-family: serif;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* CONTACTS GRID */
+.contacts-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+
+/* CONTACT CARD */
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+:host ::ng-deep .contact-name {
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* CONTACT LINKS */
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* RSVP BUTTON */
+.rsvp-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.rsvp-button {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    font-family: serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.rsvp-button:hover {
+    background-color: transparent;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+:host ::ng-deep .rsvp-text {
+    font-weight: 400;
+    margin: 0;
+}
+
+/* PHONE */
+@media (min-width: 768px) {
+    .footer-content {
+        padding: 5rem 4rem;
+    }
+
+    :host ::ng-deep .footer-title {
+        font-size: 4rem;
+    }
+
+    .contacts-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+
+    :host ::ng-deep .contact-name {
+        font-size: 1.4rem;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+    .footer-content {
+        padding: 6rem 4rem;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 2fr auto;
+        align-items: end;
+        gap: 4rem;
+    }
+
+    .footer-title-wrapper {
+        grid-column: 1;
+    }
+
+    :host ::ng-deep .footer-title {
+        font-size: 4.5rem;
+    }
+
+    .contacts-grid {
+        grid-column: 2;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .rsvp-wrapper {
+        grid-column: 3;
+        margin-top: 0;
+        align-self: end;
+    }
+
+    .rsvp-button {
+        padding: 1.2rem 3.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+/* LARGE DESKTOP */
+@media (min-width: 1440px) {
+    :host ::ng-deep .footer-title {
+        font-size: 5rem;
+    }
+}

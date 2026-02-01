@@ -1,6 +1,17 @@
-<div [style.display]="display" [style.align-items]="align" [style.gap]="gap">
-  <i [class]="iconClass"></i>
-  <span [class]="textClass">
-    {{ text }}
-  </span>
-</div>
+<a [href]="defaultHref" class="contact-link" [ngClass]="customClass">
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor" 
+    class="contact-icon"
+  >
+    <path 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+      stroke-width="2" 
+      [attr.d]="iconPath"
+    />
+  </svg>
+  <span class="contact-text">{{ text }}</span>
+</a>

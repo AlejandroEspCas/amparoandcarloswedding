@@ -1,6 +1,4 @@
 import { Component, inject, signal } from '@angular/core';
-import { ButtonComp } from './components/button-comp/button.component';
-import { ContactsLinks } from './components/contacts-links/contacts-links.component';
 import { Section1Component } from './sections/section-1/section-1.component';
 import { TranslateService } from '@ngx-translate/core';
 import { RouterOutlet } from '@angular/router';
@@ -10,6 +8,7 @@ import { Section4DescriptionComponent } from './sections/section-4-description/s
 import { Section5ScheduleComponent } from './sections/section-5-schedule/section-5-schedule.component';
 import { Section6GiftsComponent } from './sections/section-6-gifts/section-6-gifts.component';
 import { Section7LocationComponent } from './sections/section-7-location/section-7-location.component';
+import { Section8FooterComponent } from './sections/section-8-footer/section-8-footer.component';
 
 @Component({
   selector: 'app-root',
@@ -21,6 +20,7 @@ import { Section7LocationComponent } from './sections/section-7-location/section
     Section5ScheduleComponent,
     Section6GiftsComponent,
     Section7LocationComponent,
+    Section8FooterComponent,
     RouterOutlet
   ],
   templateUrl: './app.component.html',

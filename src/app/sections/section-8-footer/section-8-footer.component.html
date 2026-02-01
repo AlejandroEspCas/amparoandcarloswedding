@@ -1,0 +1,93 @@
+<section class="footer-section">
+    
+    <!-- BG IMAGE -->
+    <div class="footer-image-wrapper">
+        <app-dynamic-image
+            src="../../../assets/images/9.JPG"
+            altKey="Footer"
+            containerClass="footer-image-container"
+            imageClass="footer-image"
+        ></app-dynamic-image>
+    </div>
+
+    <!-- FOOTER CONTENT -->
+    <div class="footer-content">
+        
+        <div class="footer-container">
+            
+            <!-- TITLE -->
+            <div class="footer-title-wrapper">
+                <app-dynamic-text
+                    textKey="SECTION_FOOTER.TITLE"
+                    type="h2"
+                    customClass="footer-title"
+                ></app-dynamic-text>
+            </div>
+
+            <!-- CONTACTS GRID -->
+            <div class="contacts-grid">
+                
+                <!-- CONTACT -->
+                <div class="contact-card">
+                    <app-dynamic-text
+                        textKey="SECTION_FOOTER.CONTACTS.0.NAME"
+                        type="h3"
+                        customClass="contact-name"
+                    ></app-dynamic-text>
+                    
+                    <div class="contact-links">
+                        <app-contacts-links
+                            icon="phone"
+                            text="(664)698-6758"
+                            customClass="contact-link-item"
+                        ></app-contacts-links>
+                        
+                        <app-contacts-links
+                            icon="email"
+                            text="juancarloarmas@gmail.com"
+                            customClass="contact-link-item"
+                        ></app-contacts-links>
+                    </div>
+                </div>
+
+                <!-- CONTACT -->
+                <div class="contact-card">
+                    <app-dynamic-text
+                        textKey="SECTION_FOOTER.CONTACTS.1.NAME"
+                        type="h3"
+                        customClass="contact-name"
+                    ></app-dynamic-text>
+                    
+                    <div class="contact-links">
+                        <app-contacts-links
+                            icon="phone"
+                            text="(664)361-7687"
+                            customClass="contact-link-item"
+                        ></app-contacts-links>
+                        
+                        <app-contacts-links
+                            icon="email"
+                            text="amps.espinoza@gmail.com"
+                            customClass="contact-link-item"
+                        ></app-contacts-links>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- RSVP BUTTON -->
+            <div class="rsvp-wrapper">
+                <a href="#rsvp" class="rsvp-button">
+                    <app-dynamic-text
+                        textKey="SECTION_FOOTER.RSVP"
+                        type="span"
+                        customClass="rsvp-text"
+                    ></app-dynamic-text>
+                </a>
+            </div>
+            
+        </div>
+        
+    </div>
+
+</section>
