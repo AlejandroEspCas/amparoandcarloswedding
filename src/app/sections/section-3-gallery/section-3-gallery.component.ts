@@ -5,7 +5,7 @@ import { DynamicImageComponent } from '../../components/dynamic-image/dynamic-im
 @Component({
     selector: 'app-section-3-gallery',
         templateUrl: 'section-3-gallery.component.html',
-        styleUrls: ['section-3-gallery.component.css'],
+        styleUrl: 'section-3-gallery.component.css',
     standalone: true,
     imports: [
         CommonModule, 

@@ -7,6 +7,10 @@
     <h2 *ngSwitchCase="'h2'" [class]="customClass" appFadeIn>
         {{ textKey | translate }}
     </h2>
+
+    <h3 *ngSwitchCase="'h3'" [class]="customClass" appFadeIn>
+        {{ textKey | translate }}
+    </h3>
     
     <p *ngSwitchDefault [class]="customClass" appFadeIn>
         {{ textKey | translate }}

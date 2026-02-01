@@ -6,7 +6,7 @@ import { DynamicImageComponent } from '../../components/dynamic-image/dynamic-im
 @Component({
     selector: 'app-section-2-history',
         templateUrl: 'section-2-history.component.html',
-        styleUrls: ['section-2-history.component.css'],
+        styleUrl: 'section-2-history.component.css',
     standalone: true,
     imports: [
         CommonModule, 

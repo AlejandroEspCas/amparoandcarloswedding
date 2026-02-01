@@ -13,6 +13,6 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class DynamicTextComponent {
   @Input() textKey: string = '';
-  @Input() type: 'h1' | 'h2' | 'p' = 'p';
+  @Input() type: 'h1' | 'h2' | 'h3' | 'p' = 'p';
   @Input() customClass: string = '';
 }

@@ -6,6 +6,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { RouterOutlet } from '@angular/router';
 import { Section2HistoryComponent } from './sections/section-2-history/section-2-history.component';
 import { Section3GalleryComponent } from './sections/section-3-gallery/section-3-gallery.component';
+import { Section4DescriptionComponent } from './sections/section-4-description/section-4-description.component';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,7 @@ import { Section3GalleryComponent } from './sections/section-3-gallery/section-3
     Section1Component,
     Section2HistoryComponent,
     Section3GalleryComponent,
+    Section4DescriptionComponent,
     RouterOutlet
   ],
   templateUrl: './app.component.html',
