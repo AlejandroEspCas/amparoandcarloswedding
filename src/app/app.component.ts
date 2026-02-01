@@ -7,6 +7,7 @@ import { RouterOutlet } from '@angular/router';
 import { Section2HistoryComponent } from './sections/section-2-history/section-2-history.component';
 import { Section3GalleryComponent } from './sections/section-3-gallery/section-3-gallery.component';
 import { Section4DescriptionComponent } from './sections/section-4-description/section-4-description.component';
+import { Section5ScheduleComponent } from './sections/section-5-schedule/section-5-schedule.component';
 
 @Component({
   selector: 'app-root',
@@ -15,6 +16,7 @@ import { Section4DescriptionComponent } from './sections/section-4-description/s
     Section2HistoryComponent,
     Section3GalleryComponent,
     Section4DescriptionComponent,
+    Section5ScheduleComponent,
     RouterOutlet
   ],
   templateUrl: './app.component.html',

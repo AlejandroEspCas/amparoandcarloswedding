@@ -1,0 +1,181 @@
+/* SECTION CONTAINER */
+.schedule-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SCHEDULE CONTAINER */
+.schedule-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    min-height: 100vh;
+    gap: 0;
+}
+
+/* SCHEDULE CONTENT */
+.schedule-content {
+    background-color: #000000;
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* TITLE */
+:host ::ng-deep .schedule-title {
+    font-size: 2.5rem;
+    font-family: serif;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* DATE */
+:host ::ng-deep .schedule-date {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    margin-bottom: 3rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* TIMELINE CONTAINER */
+.timeline {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* TIMELINE ITEM */
+.timeline-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.timeline-item:last-child {
+    border-bottom: none;
+}
+
+/* TIME COLUMN */
+.timeline-time {
+    min-width: 30%;
+}
+
+/* TIME TEXT */
+:host ::ng-deep .time-text {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* EVENT COLUMN */
+.timeline-event {
+    flex: 1;
+    margin-left: 2rem;
+}
+
+/* EVENT TEXT */
+:host ::ng-deep .event-text {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* IMAGE WRAPPER */
+.schedule-image-wrapper {
+    background-color: #9a9a9a;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* IMAGE CONTAINER */
+:host ::ng-deep .schedule-image-container {
+    width: 100%;
+    height: 100vh;
+}
+
+/* IMAGE */
+:host ::ng-deep .schedule-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+/* PHONE */
+@media (min-width: 768px) {
+    :host ::ng-deep .schedule-title {
+        font-size: 3rem;
+    }
+
+    .schedule-content {
+        padding: 5rem 4rem;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+    .schedule-container {
+        grid-template-columns: 1fr 1fr;
+        height: 100vh;
+    }
+
+    .schedule-content {
+        padding: 6rem 5rem;
+        min-height: auto;
+    }
+
+    .schedule-image-wrapper {
+        height: 100vh;
+        padding: 0;
+    }
+
+    :host ::ng-deep .schedule-title {
+        font-size: 3.5rem;
+    }
+
+    :host ::ng-deep .schedule-date {
+        font-size: 1.1rem;
+    }
+
+    :host ::ng-deep .time-text {
+        font-size: 1.1rem;
+    }
+
+    :host ::ng-deep .event-text {
+        font-size: 1.2rem;
+    }
+
+    :host ::ng-deep .schedule-image-container {
+        width: 100%;
+        height: 100vh;
+    }
+}
