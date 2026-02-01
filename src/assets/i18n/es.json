@@ -45,24 +45,39 @@
     "TITLE": "Nuestro mayor regalo es contar con tu asistencia",
     "DESCRIPTION": "Sin embargo si gustan hacernos un obsequio lo apreciamos mucho en la lluvia de sobres o en forma de gift cards: Target, Walmart o Costco Shop Cards 🤍✉️"
   },
-  "SECTION_LOCATIONS": {
-    "PRIMARY_SECTION": {
-      "TITLE": "La ubicación de la ceremonia y recepción será en Hacienda Murmullo de Agua",
-      "SUBTITLE": "Direccion: 22766 Francisco Zarco, B.C.",
-      "LINK": "¿Cómo llegar?"
-    },
-    "SECONDARY_SECTION": {
-      "TITLE": "¿Dónde hospedarme?",
-      "SUBTITLE": "Sabemos que es camino largo de regreso a casa y agradecemos muchísimo el que nos acompañen en nuestro día especial fuera de la ciudad. Para quienes desean hospedarse en Valle de Guadalupe aquí algunas de las opciones:",
-      "DOTS": {
-        "ONE": "En Airbnb “Finca MD”",
-        "TWO": "Tierra Mía Hacienda ruta del Vino",
-        "THREE": "Maglén Resort",
-        "FOUR": "Casa Mayoral",
-        "FIVE": "Sol del Valle",
-        "SIX": "City Express Plus Ensenada"
+  "SECTION_LOCATION": {
+    "INTRO": "La ubicación de la ceremonia y recepción será en",
+    "LOCATION": "Hacienda Murmullo de Agua",
+    "ADDRESS": "Dirección: 22766 Francisco Zarco, B.C.",
+    "HOW_TO_GET": "¿Cómo llegar?",
+    "WHERE_TO_STAY": "¿Dónde hospedarme?",
+    "STAY_DESCRIPTION": "Sabemos que es camino largo de regreso a casa y agradecemos muchísimo el que nos acompañen en nuestro día especial fuera de la ciudad. Para quienes desean hospedarse en Valle de Guadalupe aquí algunas de las opciones:",
+    "HOTELS": [
+      {
+        "NAME": "En Airbnb \"Finca MD\"",
+        "LINK": "#"
+      },
+      {
+        "NAME": "Tierra Mía Hacienda ruta del Vino",
+        "LINK": "#"
+      },
+      {
+        "NAME": "Maglén Resort",
+        "LINK": "#"
+      },
+      {
+        "NAME": "Casa Mayoral",
+        "LINK": "#"
+      },
+      {
+        "NAME": "Sol del Valle",
+        "LINK": "#"
+      },
+      {
+        "NAME": "City Express Plus Ensenada",
+        "LINK": "#"
       }
-    }
+    ]
   },
   "SECTION_CONTACTS": {
     "TITLE": "CONTACTANOS",

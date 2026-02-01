@@ -1,0 +1,133 @@
+<section class="location-section">
+    
+    <div class="location-container">
+        
+        <!-- IMAGE -->
+        <div class="location-image-wrapper">
+            <app-dynamic-image
+                src="../../../assets/images/8.JPG"
+                altKey="Ubicación"
+                containerClass="location-image-container"
+                imageClass="location-image"
+            ></app-dynamic-image>
+        </div>
+
+        <!-- INFORMATION -->
+        <div class="location-info">
+            
+            <!-- LOCATION INFO -->
+            <div class="venue-info">
+                <p class="intro-text">
+                    <app-dynamic-text
+                        textKey="SECTION_LOCATION.INTRO"
+                        type="p"
+                        customClass="intro-inline"
+                    ></app-dynamic-text>
+                    <app-dynamic-text
+                        textKey="SECTION_LOCATION.LOCATION"
+                        type="p"
+                        customClass="location-name"
+                    ></app-dynamic-text>
+                </p>
+                
+                <app-dynamic-text
+                    textKey="SECTION_LOCATION.ADDRESS"
+                    type="p"
+                    customClass="address-text"
+                ></app-dynamic-text>
+                
+                <div class="link-wrapper">
+                    <a href="https://maps.google.com" target="_blank" class="location-link">
+                        <app-dynamic-text
+                            textKey="SECTION_LOCATION.HOW_TO_GET"
+                            type="p"
+                            customClass="link-text"
+                        ></app-dynamic-text>
+                    </a>
+                </div>
+            </div>
+
+            <!-- DIVIDER -->
+            <div class="divider"></div>
+
+            <!-- ACCOMMODATION INFO -->
+            <div class="accommodation-info">
+                <app-dynamic-text
+                    textKey="SECTION_LOCATION.WHERE_TO_STAY"
+                    type="h3"
+                    customClass="accommodation-title"
+                ></app-dynamic-text>
+                
+                <app-dynamic-text
+                    textKey="SECTION_LOCATION.STAY_DESCRIPTION"
+                    type="p"
+                    customClass="accommodation-description"
+                ></app-dynamic-text>
+                
+                <!-- HOTELS LIST -->
+                <ul class="hotels-list">
+                    <li class="hotel-item">
+                        <a href="#" target="_blank" class="hotel-link">
+                            <app-dynamic-text
+                                textKey="SECTION_LOCATION.HOTELS.0.NAME"
+                                type="span"
+                                customClass="hotel-link-text"
+                            ></app-dynamic-text>
+                        </a>
+                    </li>
+                    <li class="hotel-item">
+                        <a href="#" target="_blank" class="hotel-link">
+                            <app-dynamic-text
+                                textKey="SECTION_LOCATION.HOTELS.1.NAME"
+                                type="span"
+                                customClass="hotel-link-text"
+                            ></app-dynamic-text>
+                        </a>
+                    </li>
+                    <li class="hotel-item">
+                        <a href="#" target="_blank" class="hotel-link">
+                            <app-dynamic-text
+                                textKey="SECTION_LOCATION.HOTELS.2.NAME"
+                                type="span"
+                                customClass="hotel-link-text"
+                            ></app-dynamic-text>
+                        </a>
+                    </li>
+                    <li class="hotel-item">
+                        <a href="#" target="_blank" class="hotel-link">
+                            <app-dynamic-text
+                                textKey="SECTION_LOCATION.HOTELS.3.NAME"
+                                type="span"
+                                customClass="hotel-link-text"
+                            ></app-dynamic-text>
+                        </a>
+                    </li>
+                    <li class="hotel-item">
+                        <a href="#" target="_blank" class="hotel-link">
+                            <app-dynamic-text
+                                textKey="SECTION_LOCATION.HOTELS.4.NAME"
+                                type="span"
+                                customClass="hotel-link-text"
+                            ></app-dynamic-text>
+                        </a>
+                    </li>
+                    <li class="hotel-item">
+                        <a href="#" target="_blank" class="hotel-link">
+                            <app-dynamic-text
+                                textKey="SECTION_LOCATION.HOTELS.5.NAME"
+                                type="span"
+                                customClass="hotel-link-text"
+                            ></app-dynamic-text>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- DIVIDER -->
+            <div class="divider"></div>
+            
+        </div>
+        
+    </div>
+
+</section>

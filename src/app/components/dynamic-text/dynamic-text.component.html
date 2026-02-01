@@ -11,6 +11,10 @@
     <h3 *ngSwitchCase="'h3'" [class]="customClass" appFadeIn>
         {{ textKey | translate }}
     </h3>
+
+    <span *ngSwitchCase="'span'" [class]="customClass" appFadeIn>
+        {{ textKey | translate }}
+    </span>
     
     <p *ngSwitchDefault [class]="customClass" appFadeIn>
         {{ textKey | translate }}
