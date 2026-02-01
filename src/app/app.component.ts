@@ -5,12 +5,14 @@ import { Section1Component } from './sections/section-1/section-1.component';
 import { TranslateService } from '@ngx-translate/core';
 import { RouterOutlet } from '@angular/router';
 import { Section2HistoryComponent } from './sections/section-2-history/section-2-history.component';
+import { Section3GalleryComponent } from './sections/section-3-gallery/section-3-gallery.component';
 
 @Component({
   selector: 'app-root',
   imports: [
     Section1Component,
     Section2HistoryComponent,
+    Section3GalleryComponent,
     RouterOutlet
   ],
   templateUrl: './app.component.html',

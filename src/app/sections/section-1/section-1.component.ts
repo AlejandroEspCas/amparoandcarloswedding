@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DynamicTextComponent } from '../../components/dynamic-text/dynamic-text.component';
 import { DynamicImageComponent } from '../../components/dynamic-image/dynamic-image.component';
-import { ButtonComp } from '../../components/button-comp/button.component'; // Tu botón existente
 
 @Component({
     selector: 'app-section-1',
