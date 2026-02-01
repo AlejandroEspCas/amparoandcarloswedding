@@ -1,0 +1,36 @@
+import { Component, inject, signal } from '@angular/core';
+import { ButtonComp } from './components/button-comp/button.component';
+import { ContactsLinks } from './components/contacts-links/contacts-links.component';
+import { Section1Component } from './sections/section-1/section-1.component';
+import { TranslateService } from '@ngx-translate/core';
+import { RouterOutlet } from '@angular/router';
+
+@Component({
+  selector: 'app-root',
+  imports: [
+    Section1Component,
+    RouterOutlet
+  ],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css',
+})
+export class App {
+  private translate = inject(TranslateService); 
+
+  constructor() {
+    this.translate.addLangs(['en', 'es']);
+    this.translate.setDefaultLang('es');
+
+    // BROWSER LANGUAGE
+    const browserLang = this.translate.getBrowserLang();
+    this.translate.use(browserLang?.match(/en|es/) ? browserLang : 'es');
+  }
+  
+  protected readonly title = signal('amparoandcarloswedding');
+  onClick() {
+    console.log('Clickable!!');
+
+    const currentLang = this.translate.currentLang;
+    this.translate.use(currentLang === 'es' ? 'en' : 'es');
+  }
+}

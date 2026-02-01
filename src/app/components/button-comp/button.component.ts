@@ -1,10 +1,10 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'button-comp',
+  selector: 'app-button-comp',
   imports: [],
-  templateUrl: './button.html',
-  styleUrl: './button.css',
+  templateUrl: './button.component.html',
+  styleUrl: './button.component.css',
 })
 export class ButtonComp {
   @Input() text: string = 'RSVP';

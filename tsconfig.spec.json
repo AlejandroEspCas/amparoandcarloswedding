@@ -11,5 +11,5 @@
   "include": [
     "src/**/*.d.ts",
     "src/**/*.spec.ts"
-  ]
+, "src/app/components/button-comp/button.spec.component.ts", "src/app/components/contacts-links/contacts-links.spec.component.ts"  ]
 }

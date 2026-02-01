@@ -1,0 +1,15 @@
+<ng-container [ngSwitch]="type">
+      
+    <h1 *ngSwitchCase="'h1'" [class]="customClass" appFadeIn>
+        {{ textKey | translate }} 
+    </h1>
+    
+    <h2 *ngSwitchCase="'h2'" [class]="customClass" appFadeIn>
+        {{ textKey | translate }}
+    </h2>
+    
+    <p *ngSwitchDefault [class]="customClass" appFadeIn>
+        {{ textKey | translate }}
+    </p>
+
+</ng-container>

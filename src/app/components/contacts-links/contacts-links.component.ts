@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'contacts-links',
+  selector: 'app-contacts-links',
+  templateUrl: './contacts-links.component.html',
+  styleUrl: './contacts-links.component.css',
+  standalone: true,
   imports: [],
-  templateUrl: './contacts-links.html',
-  styleUrl: './contacts-links.css',
 })
 export class ContactsLinks {
   @Input() iconClass: string = 'fa-solid fa-phone icon-class';
