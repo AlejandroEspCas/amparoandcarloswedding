@@ -1,165 +1,166 @@
 /* SECTION CONTAINER */
 .ceremony-section {
-    width: 100%;
-    background-color: #e8e4dc;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+  width: 100%;
+  background-color: #e8e4dc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 :host ::ng-deep .section-title {
-    font-family: 'Sharis', serif;
-    font-size: 3rem;
-    font-weight: 300;
-    letter-spacing: 0.3em;
-    text-align: center;
-    margin-bottom: 80px;
-    color: #2c2c2c;
+  font-family: 'Sharis', serif;
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  text-align: center;
+  margin-bottom: 80px;
+  color: #2c2c2c;
 }
 
 /* INFO CONTAINER */
 .info-container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 60px;
-    max-width: 1200px;
-    width: 100%;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 /* INFO CARD */
 .info-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
-    min-width: 280px;
-    max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 280px;
+  max-width: 350px;
 }
 
 /* IMAGE CONTAINER */
 .illustration-container {
-    width: 100%;
-    height: 200px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 /* COMPONENT CONTAINER */
 :host ::ng-deep .illustration-image-container {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /* COMPONENT IMAGE CONTAINER */
 :host ::ng-deep .illustration {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: grayscale(100%);
-    opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+  opacity: 0.8;
 }
 
 /* CARD TITLE */
 :host ::ng-deep .card-title {
-    font-family: 'Sharis', serif;
-    font-size: 1.8rem;
-    font-weight: 400;
-    margin-bottom: 20px;
-    color: #2c2c2c;
-    text-align: center;
+  font-family: 'Sharis', serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #2c2c2c;
+
+  text-align: center;
 }
 
 /* CARD TEXT */
 :host ::ng-deep .card-text {
-    font-family: 'Optima', sans-serif;
-    font-size: 1rem;
-    line-height: 1.8;
-    text-align: center;
-    color: #2c2c2c;
-    margin: 0;
+  font-family: 'Optima', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: center;
+  color: #2c2c2c;
+  margin: 0;
 }
 
 /* DESKTOP */
 @media (max-width: 968px) {
-    :host ::ng-deep .section-title {
-        font-size: 2.5rem;
-        letter-spacing: 0.2em;
-        margin-bottom: 60px;
-    }
+  :host ::ng-deep .section-title {
+    font-size: 2.5rem;
+    letter-spacing: 0.2em;
+    margin-bottom: 60px;
+  }
 
-    .info-container {
-        gap: 50px;
-    }
+  .info-container {
+    gap: 50px;
+  }
 }
 
 /* TABLET */
 @media (max-width: 768px) {
-    .ceremony-section {
-        padding: 60px 20px;
-    }
+  .ceremony-section {
+    padding: 60px 20px;
+  }
 
-    :host ::ng-deep .section-title {
-        font-size: 2rem;
-        letter-spacing: 0.15em;
-        margin-bottom: 40px;
-    }
+  :host ::ng-deep .section-title {
+    font-size: 2rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 40px;
+  }
 
-    .info-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
-    }
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
 
-    .info-card {
-        max-width: 100%;
-        width: 100%;
-    }
+  .info-card {
+    max-width: 100%;
+    width: 100%;
+  }
 
-    .illustration-container {
-        height: 180px;
-        margin-bottom: 25px;
-    }
+  .illustration-container {
+    height: 180px;
+    margin-bottom: 25px;
+  }
 
-    :host ::ng-deep .card-title {
-        font-size: 1.5rem;
-    }
+  :host ::ng-deep .card-title {
+    font-size: 1.5rem;
+  }
 
-    :host ::ng-deep .card-text {
-        font-size: 0.95rem;
-    }
+  :host ::ng-deep .card-text {
+    font-size: 0.95rem;
+  }
 }
 
 /* PHONE */
 @media (max-width: 480px) {
-    .ceremony-section {
-        padding: 40px 15px;
-    }
+  .ceremony-section {
+    padding: 40px 15px;
+  }
 
-    :host ::ng-deep .section-title {
-        font-size: 1.6rem;
-        letter-spacing: 0.1em;
-        margin-bottom: 30px;
-    }
+  :host ::ng-deep .section-title {
+    font-size: 1.6rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+  }
 
-    .illustration-container {
-        height: 150px;
-        margin-bottom: 20px;
-    }
+  .illustration-container {
+    height: 150px;
+    margin-bottom: 20px;
+  }
 
-    :host ::ng-deep .card-title {
-        font-size: 1.3rem;
-        margin-bottom: 15px;
-    }
+  :host ::ng-deep .card-title {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
 
-    :host ::ng-deep .card-text {
-        font-size: 0.9rem;
-        line-height: 1.7;
-    }
+  :host ::ng-deep .card-text {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
 }
