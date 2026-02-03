@@ -134,6 +134,12 @@
   margin: 0;
 }
 
+@media (min-width: 530px) {
+  :host ::ng-deep .footer-image {
+    object-position: -103vw;
+  }
+}
+
 /* PHONE */
 @media (min-width: 768px) {
   .footer-content {
@@ -149,6 +155,10 @@
     gap: 4rem;
   }
 
+  :host ::ng-deep .footer-image {
+    object-position: 0;
+  }
+
   :host ::ng-deep .contact-name {
     font-size: 1.4rem;
   }
@@ -158,6 +168,10 @@
 @media (min-width: 1024px) {
   .footer-content {
     padding: 6rem 4rem;
+  }
+
+  :host ::ng-deep .footer-image {
+    object-position: 0;
   }
 
   .footer-container {
@@ -195,5 +209,8 @@
 @media (min-width: 1440px) {
   :host ::ng-deep .footer-title {
     font-size: 5rem;
+  }
+  :host ::ng-deep .footer-image {
+    object-position: 0;
   }
 }
