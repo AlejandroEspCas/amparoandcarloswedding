@@ -1,43 +1,35 @@
 <section class="section-1-section">
-      
-    <!-- BG IMG -->
-    <div class="section-1-background">
-        <app-dynamic-image
-            src="../../../assets/images/1.JPG"
-            altKey="Foto de portada"
-            containerClass="image-container"
-            imageClass="section-1-image"
-        ></app-dynamic-image>
+  <!-- BG IMG -->
+  <div class="section-1-background">
+    <app-dynamic-image
+      src="assets/images/1.JPG"
+      altKey="Foto de portada"
+      containerClass="image-container"
+      imageClass="section-1-image"
+    ></app-dynamic-image>
+  </div>
+
+  <div class="section-1-content">
+    <!-- TITLE -->
+    <div class="section-1-title-wrapper">
+      <app-dynamic-text
+        textKey="SECTION_TOP.TITLE"
+        type="h1"
+        customClass="section-1-title"
+      ></app-dynamic-text>
     </div>
 
-    <div class="section-1-content">
+    <div class="section-1-footer">
+      <!-- DATE -->
+      <app-dynamic-text
+        textKey="SECTION_TOP.DATE"
+        type="p"
+        customClass="section-1-date"
+      ></app-dynamic-text>
 
-        <!-- TITLE -->
-        <div class="section-1-title-wrapper">
-            <app-dynamic-text
-                textKey="SECTION_TOP.TITLE" 
-                type="h1"
-                customClass="section-1-title"
-            ></app-dynamic-text>
-        </div>
-
-        <div class="section-1-footer">
-            
-            <!-- DATE -->
-            <app-dynamic-text
-                textKey="SECTION_TOP.DATE"
-                type="p"
-                customClass="section-1-date"
-            ></app-dynamic-text>
-
-            <!-- PHRASE -->
-             <app-dynamic-text 
-             customClass="section-1-phrase"
-             textKey="SECTION_TOP.FRASE"
-             >
-             </app-dynamic-text>
-        </div>
-
+      <!-- PHRASE -->
+      <app-dynamic-text customClass="section-1-phrase" textKey="SECTION_TOP.FRASE">
+      </app-dynamic-text>
     </div>
-
+  </div>
 </section>

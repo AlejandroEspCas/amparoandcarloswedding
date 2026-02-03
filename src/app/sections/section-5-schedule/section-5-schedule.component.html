@@ -1,92 +1,84 @@
 <section class="schedule-section">
-    
-    <div class="schedule-container">
-        
-        <!-- SCHEDULE -->
-        <div class="schedule-content">
-            
-            <!-- TITLE -->
+  <div class="schedule-container">
+    <!-- SCHEDULE -->
+    <div class="schedule-content">
+      <!-- TITLE -->
+      <app-dynamic-text
+        textKey="SECTION_CRONOGRAM.TITLE"
+        type="h2"
+        customClass="schedule-title"
+      ></app-dynamic-text>
+
+      <!-- DATE -->
+      <app-dynamic-text
+        textKey="SECTION_CRONOGRAM.DATE"
+        type="p"
+        customClass="schedule-date"
+      ></app-dynamic-text>
+
+      <!-- TABLE -->
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-time">
             <app-dynamic-text
-                textKey="SECTION_CRONOGRAM.TITLE"
-                type="h2"
-                customClass="schedule-title"
+              textKey="SECTION_CRONOGRAM.ITEMS.0.TIME"
+              type="p"
+              customClass="time-text"
             ></app-dynamic-text>
-            
-            <!-- DATE -->
+          </div>
+          <div class="timeline-event">
             <app-dynamic-text
-                textKey="SECTION_CRONOGRAM.DATE"
-                type="p"
-                customClass="schedule-date"
+              textKey="SECTION_CRONOGRAM.ITEMS.0.EVENT"
+              type="p"
+              customClass="event-text"
             ></app-dynamic-text>
-            
-            <!-- TABLE -->
-            <div class="timeline">
-                
-                <div class="timeline-item">
-                    <div class="timeline-time">
-                        <app-dynamic-text
-                            textKey="SECTION_CRONOGRAM.ITEMS.0.TIME"
-                            type="p"
-                            customClass="time-text"
-                        ></app-dynamic-text>
-                    </div>
-                    <div class="timeline-event">
-                        <app-dynamic-text
-                            textKey="SECTION_CRONOGRAM.ITEMS.0.EVENT"
-                            type="p"
-                            customClass="event-text"
-                        ></app-dynamic-text>
-                    </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-time">
-                        <app-dynamic-text
-                            textKey="SECTION_CRONOGRAM.ITEMS.1.TIME"
-                            type="p"
-                            customClass="time-text"
-                        ></app-dynamic-text>
-                    </div>
-                    <div class="timeline-event">
-                        <app-dynamic-text
-                            textKey="SECTION_CRONOGRAM.ITEMS.1.EVENT"
-                            type="p"
-                            customClass="event-text"
-                        ></app-dynamic-text>
-                    </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-time">
-                        <app-dynamic-text
-                            textKey="SECTION_CRONOGRAM.ITEMS.2.TIME"
-                            type="p"
-                            customClass="time-text"
-                        ></app-dynamic-text>
-                    </div>
-                    <div class="timeline-event">
-                        <app-dynamic-text
-                            textKey="SECTION_CRONOGRAM.ITEMS.2.EVENT"
-                            type="p"
-                            customClass="event-text"
-                        ></app-dynamic-text>
-                    </div>
-                </div>
-                
-            </div>
-            
+          </div>
         </div>
-        
-        <!-- IMAGE -->
-        <div class="schedule-image-wrapper">
-            <app-dynamic-image
-                src="../../../assets/images/5.JPG"
-                altKey="Cronograma"
-                containerClass="schedule-image-container"
-                imageClass="schedule-image"
-            ></app-dynamic-image>
+
+        <div class="timeline-item">
+          <div class="timeline-time">
+            <app-dynamic-text
+              textKey="SECTION_CRONOGRAM.ITEMS.1.TIME"
+              type="p"
+              customClass="time-text"
+            ></app-dynamic-text>
+          </div>
+          <div class="timeline-event">
+            <app-dynamic-text
+              textKey="SECTION_CRONOGRAM.ITEMS.1.EVENT"
+              type="p"
+              customClass="event-text"
+            ></app-dynamic-text>
+          </div>
         </div>
-        
+
+        <div class="timeline-item">
+          <div class="timeline-time">
+            <app-dynamic-text
+              textKey="SECTION_CRONOGRAM.ITEMS.2.TIME"
+              type="p"
+              customClass="time-text"
+            ></app-dynamic-text>
+          </div>
+          <div class="timeline-event">
+            <app-dynamic-text
+              textKey="SECTION_CRONOGRAM.ITEMS.2.EVENT"
+              type="p"
+              customClass="event-text"
+            ></app-dynamic-text>
+          </div>
+        </div>
+      </div>
     </div>
 
+    <!-- IMAGE -->
+    <div class="schedule-image-wrapper">
+      <app-dynamic-image
+        src="assets/images/5.JPG"
+        altKey="Cronograma"
+        containerClass="schedule-image-container"
+        imageClass="schedule-image"
+      ></app-dynamic-image>
+    </div>
+  </div>
 </section>
