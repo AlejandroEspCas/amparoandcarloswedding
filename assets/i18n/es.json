@@ -9,23 +9,23 @@
     "DESCRIPTION": "Fue en diciembre de 2014 cuando intercambiamos un “gusto en conocerte” y en agosto de 2017 fue cuando nuestros caminos se volvieron a cruzar, después de una cita muy patriótica de 16 de septiembre  los fines de semana fueron nuestros y fuimos inseparables.No tardamos mucho en amarnos incondicionalmente y convertirnos en una familia junto con nuestra hija Sofía. 8 años después de tantas aventuras y buenos momentos estamos complacidos en invitarlos a la celebración de nuestro amor"
   },
   "SECTION_CEREMONY_RECEPTION": {
-    "TITLE": "Ceremonia y recepción",
+    "TITLE": "CEREMONIA Y RECEPCIÓN",
     "CEREMONY": {
       "TITLE": "Ceremonia",
-      "DESCRIPTION": "La ceremonia de unión será en la Hacienda murmullo de agua, Valle de Guadalupe, BC"
+      "DESCRIPTION": "La ceremonia de unión sera en la Hacienda murmullo de agua, Valle de Guadalupe, BC"
     },
     "DRESS_CODE": {
       "TITLE": "Código de vestimenta",
-      "DESCRIPTION": "Vestimenta formal, Mujeres : bienvenidos vestidos midi y largos, con flores o románticos (la decisión es tuya) por favor evitar blanco o rojo. Hombres: formal, saco y corbata "
+      "DESCRIPTION": "Vestimenta formal, Mujeres : bienvenidos vestidos midi y largos, con flores o romanticos (la decision es tuya) por favor evitar blanco o rojo. Hombres: formal, saco y corbata "
     },
     "RECEPTION": {
       "TITLE": "Recepción",
-      "DESCRIPTION": "La celebración será llevada a cabo en la Hacienda murmullo de Agua, Valle de Guadalupe, BC"
+      "DESCRIPTION": "La celebracion sera llevada a cabo en la Hacienda murmullo de Agua, Valle de Guadalupe, BC"
     }
   },
   "SECTION_CRONOGRAM": {
     "TITLE": "Cronograma del evento",
-    "DATE": "Sábado 10 de octubre 2026",
+    "DATE": "Sabado 10 de octubre 2026",
     "ITEMS": [
       {
         "TIME": "5:00 PM",
@@ -46,11 +46,11 @@
     "DESCRIPTION": "Sin embargo si gustan hacernos un obsequio lo apreciamos mucho en la lluvia de sobres o en forma de tarjetas de regalo: Target, Walmart o Costco 🤍✉️"
   },
   "SECTION_LOCATION": {
-    "INTRO": "La ubicación de la ceremonia y recepción será en",
+    "INTRO": "La ubicacion de la ceremonia y recepción sera en",
     "LOCATION": "Hacienda Murmullo de Agua",
-    "ADDRESS": "Dirección: 22766 Francisco Zarco, B.C.",
-    "HOW_TO_GET": "¿Cómo llegar?",
-    "WHERE_TO_STAY": "¿Dónde hospedarme?",
+    "ADDRESS": "Direccion: 22766 Francisco Zarco, B.C.",
+    "HOW_TO_GET": "¿Como llegar?",
+    "WHERE_TO_STAY": "¿Donde hospedarme?",
     "STAY_DESCRIPTION": "Sabemos que es camino largo de regreso a casa y agradecemos muchísimo el que nos acompañen en nuestro día especial fuera de la ciudad. Para quienes desean hospedarse en Valle de Guadalupe aquí algunas de las opciones:",
     "HOTELS": [
       {
@@ -58,11 +58,11 @@
         "LINK": "#"
       },
       {
-        "NAME": "Tierra Mía Hacienda ruta del Vino",
+        "NAME": "Tierra Mia Hacienda ruta del Vino",
         "LINK": "#"
       },
       {
-        "NAME": "Maglén Resort",
+        "NAME": "Maglen Resort",
         "LINK": "#"
       },
       {
