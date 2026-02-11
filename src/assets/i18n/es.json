@@ -54,28 +54,22 @@
     "STAY_DESCRIPTION": "Sabemos que es camino largo de regreso a casa y agradecemos muchísimo el que nos acompañen en nuestro día especial fuera de la ciudad. Para quienes desean hospedarse en Valle de Guadalupe aquí algunas de las opciones:",
     "HOTELS": [
       {
-        "NAME": "En Airbnb \"Finca MD\"",
-        "LINK": "#"
+        "NAME": "Airbnb \"Finca MD\""
       },
       {
-        "NAME": "Tierra Mía Hacienda ruta del Vino",
-        "LINK": "#"
+        "NAME": "Tierra Mía Hacienda ruta del Vino"
       },
       {
-        "NAME": "Maglén Resort",
-        "LINK": "#"
+        "NAME": "Maglén Resort"
       },
       {
-        "NAME": "Casa Mayoral",
-        "LINK": "#"
+        "NAME": "Casa Mayoral"
       },
       {
-        "NAME": "Sol del Valle",
-        "LINK": "#"
+        "NAME": "Sol del Valle"
       },
       {
-        "NAME": "City Express Plus Ensenada",
-        "LINK": "#"
+        "NAME": "City Express Plus Ensenada"
       }
     ]
   },
