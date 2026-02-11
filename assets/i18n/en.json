@@ -6,21 +6,21 @@
   },
   "SECTION_HISTORY": {
     "TITLE": "Our Story",
-    "DESCRIPTION": "It was in December 2014 when we exchanged a 'nice to meet you,' and in August 2017 our paths crossed again. After a very patriotic date on September 16th, the weekends became ours, and we became inseparable. It didn't take long for us to love each other unconditionally and become a family together with our daughter Sofía. 8 years later, after so many adventures and good times, we are pleased to invite you to the celebration of our love."
+    "DESCRIPTION": "It was back in December 2014  when we first met it started exchanging a quick “nice to meet you” years later in August of 2017 our paths would cross again, and after a very patriotic date on september 16th we would quickly become inseparable. It wasn’t long before we came to love each other unconditionally and become a family along with our daughter Sofia. After 8 years of so many adventures and treasured moments we’re very pleased to invite you to a celebration of our love."
   },
   "SECTION_CEREMONY_RECEPTION": {
-    "TITLE": "Ceremony & Reception",
+    "TITLE": "Wedding & Reception",
     "CEREMONY": {
-      "TITLE": "Ceremony",
-      "DESCRIPTION": "The wedding ceremony will take place at Hacienda Murmullo de Agua, Valle de Guadalupe, BC."
+      "TITLE": "Wedding",
+      "DESCRIPTION": "Our wedding will be held in Hacienda murmullo de agua, Valle de Guadalupe, BC"
     },
     "DRESS_CODE": {
       "TITLE": "Dress code",
       "DESCRIPTION": "Formal attire. Women: Midi and long dresses are welcome, floral or romantic (the choice is yours); please avoid white or red. Men: Formal, suit and tie."
     },
     "RECEPTION": {
-      "TITLE": "Reception",
-      "DESCRIPTION": "The celebration will be held at Hacienda Murmullo de Agua, Valle de Guadalupe, BC."
+      "TITLE": "Wedding Reception",
+      "DESCRIPTION": "The celebration will be held in Hacienda murmullo de agua, Valle de Guadalupe, BC"
     }
   },
   "SECTION_CRONOGRAM": {
@@ -29,7 +29,7 @@
     "ITEMS": [
       {
         "TIME": "5:00 PM",
-        "EVENT": "Ceremony"
+        "EVENT": "Wedding Ceremony"
       },
       {
         "TIME": "6:00 PM",
@@ -42,40 +42,34 @@
     ]
   },
   "SECTION_GIFTS": {
-    "TITLE": "Our greatest gift is your presence",
-    "DESCRIPTION": "However, if you wish to give us a present, we would greatly appreciate a monetary gift (envelope) or gift cards: Target, Walmart, or Costco Shop Cards 🤍✉️"
+    "TITLE": "Our most treasured gift will be your attendance",
+    "DESCRIPTION": "However if you wish to bring a gift, we’ll have a mailbox for cash envelopes per Mexican tradition or a gift card from target wal-mart or costco shop, would be greatly appreciated"
   },
   "SECTION_LOCATION": {
-    "INTRO": "The ceremony and reception will be located at",
+    "INTRO": "Wedding and reception will be held in",
     "LOCATION": "Hacienda Murmullo de Agua",
-    "ADDRESS": "Address: 22766 Francisco Zarco, B.C.",
+    "ADDRESS": "Address: Valle de Guadalupe, BC",
     "HOW_TO_GET": "How to get there?",
     "WHERE_TO_STAY": "Where to stay?",
-    "STAY_DESCRIPTION": "We know it is a long way back home, and we greatly appreciate you joining us on our special day out of town. For those wishing to stay in Valle de Guadalupe, here are some options:",
+    "STAY_DESCRIPTION": "We greatly appreciate that you have chosen to celebrate with us, and we know it’s a long way home after a party, for those want to stay in Valle de Guadalupe we have a few options below:",
     "HOTELS": [
       {
-        "NAME": "Airbnb \"Finca MD\"",
-        "LINK": "#"
+        "NAME": "Airbnb \"Finca MD\""
       },
       {
-        "NAME": "Tierra Mía Hacienda ruta del Vino",
-        "LINK": "#"
+        "NAME": "Tierra Mía Hacienda ruta del Vino"
       },
       {
-        "NAME": "Maglén Resort",
-        "LINK": "#"
+        "NAME": "Maglén Resort"
       },
       {
-        "NAME": "Casa Mayoral",
-        "LINK": "#"
+        "NAME": "Casa Mayoral"
       },
       {
-        "NAME": "Sol del Valle",
-        "LINK": "#"
+        "NAME": "Sol del Valle"
       },
       {
-        "NAME": "City Express Plus Ensenada",
-        "LINK": "#"
+        "NAME": "City Express Plus Ensenada"
       }
     ]
   },
