@@ -56,6 +56,7 @@ span {
   width: 100%;
   padding-top: 4rem;
   text-align: center;
+  justify-content: center;
   display: flex;
 }
 
@@ -71,7 +72,7 @@ span {
 
 :host ::ng-deep .first-image-container {
   width: 100%;
-  margin-top: -1rem;
+  margin-top: -0.5rem;
   max-width: 290px;
   aspect-ratio: 1 / 1;
 }
@@ -128,6 +129,21 @@ span {
   :host ::ng-deep .section-1-date,
   :host ::ng-deep .section-1-phrase {
     font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-1-title-wrapper {
+    margin-left: 0;
+    display: grid;
+    justify-items: center;
+  }
+  :host ::ng-deep .section-1-title {
+    font-size: 3.1rem;
+  }
+  :host ::ng-deep .first-image-container {
+    width: 10rem;
+    aspect-ratio: unset;
   }
 }
 
