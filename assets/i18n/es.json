@@ -1,6 +1,7 @@
 {
   "SECTION_TOP": {
-    "TITLE": "AMPARO &- CARLOS",
+    "NAME_ONE": "AMPARO",
+    "NAME_TWO": "CARLOS",
     "DATE": "10 OCTUBRE 2026",
     "FRASE": "always and forever"
   },
@@ -9,7 +10,7 @@
     "DESCRIPTION": "Fue en diciembre de 2014 cuando intercambiamos un “gusto en conocerte” y en agosto de 2017 fue cuando nuestros caminos se volvieron a cruzar, después de una cita muy patriótica de 16 de septiembre  los fines de semana fueron nuestros y fuimos inseparables.No tardamos mucho en amarnos incondicionalmente y convertirnos en una familia junto con nuestra hija Sofía. 8 años después de tantas aventuras y buenos momentos estamos complacidos en invitarlos a la celebración de nuestro amor"
   },
   "SECTION_CEREMONY_RECEPTION": {
-    "TITLE": "Ceremonia y recepción",
+    "TITLE": "CEREMONIA Y RECEPCION",
     "CEREMONY": {
       "TITLE": "Ceremonia",
       "DESCRIPTION": "La ceremonia de unión será en la Hacienda murmullo de agua, Valle de Guadalupe, BC"
