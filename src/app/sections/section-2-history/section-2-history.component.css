@@ -132,7 +132,7 @@
     grid-column: 3;
     grid-row: 1;
     text-align: left;
-    display: flex;
+    display: grid;
     align-items: center;
   }
 
