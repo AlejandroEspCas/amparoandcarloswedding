@@ -61,7 +61,9 @@
 
 /* DESCRIPTION WRAPPER */
 .history-description-wrapper {
-  text-align: left;
+  /* text-align: left; */
+  text-justify: auto;
+  text-align: justify;
 }
 
 /* DESCRIPTION TEXT */
@@ -131,7 +133,6 @@
   .history-description-wrapper {
     grid-column: 3;
     grid-row: 1;
-    text-align: left;
     display: grid;
     align-items: center;
   }

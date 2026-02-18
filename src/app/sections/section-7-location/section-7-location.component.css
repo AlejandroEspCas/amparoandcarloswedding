@@ -107,6 +107,7 @@
 
 :host ::ng-deep .link-text {
   font-family: 'Optima';
+  font-weight: 600;
   font-size: 0.95rem;
   margin: 0;
 }

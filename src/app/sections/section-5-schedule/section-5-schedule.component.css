@@ -32,7 +32,7 @@
 
 /* TITLE */
 :host ::ng-deep .schedule-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: 'Sharis';
   color: #ffffff;
   letter-spacing: 0.05em;
