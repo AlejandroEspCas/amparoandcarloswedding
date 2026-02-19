@@ -80,10 +80,18 @@
 :host ::ng-deep .card-text {
   font-family: 'Optima', sans-serif;
   font-size: 1rem;
-  line-height: 1.8;
+  /* line-height: 1.8; */
   text-align: center;
   color: #2c2c2c;
   margin: 0;
+}
+
+.dress-code-container {
+  display: contents;
+}
+
+.dress-code-list {
+  width: auto;
 }
 
 /* DESKTOP */
@@ -96,6 +104,10 @@
 
   .info-container {
     gap: 50px;
+  }
+
+  .dress-code-list {
+    width: 100%;
   }
 }
 
@@ -134,6 +146,10 @@
   :host ::ng-deep .card-text {
     font-size: 0.95rem;
   }
+
+  .dress-code-list {
+    width: 100%;
+  }
 }
 
 /* PHONE */
@@ -160,6 +176,10 @@
 
   :host ::ng-deep .card-text {
     font-size: 0.9rem;
-    line-height: 1.7;
+    /* line-height: 1.7; */
+  }
+
+  .dress-code-list {
+    width: 15rem;
   }
 }

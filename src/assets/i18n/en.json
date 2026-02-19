@@ -19,7 +19,10 @@
     },
     "DRESS_CODE": {
       "TITLE": "Dress code",
-      "DESCRIPTION": "Formal attire. Women: Midi and long dresses are welcome, floral or romantic (the choice is yours); please avoid white or red. Men: Formal, suit and tie."
+      "DESCRIPTION_ONE": "Formal attire",
+      "DESCRIPTION_TWO": "Women: Midi and long dresses are welcome, floral or romantic (the choice is yours)",
+      "DESCRIPTION_THREE": "Men: Formal, suit and tie.",
+      "DESCRIPTION_FOUR": "Please avoid white or red."
     },
     "RECEPTION": {
       "TITLE": "Wedding Reception",
@@ -46,13 +49,14 @@
   },
   "SECTION_GIFTS": {
     "TITLE": "Our most treasured gift will be your attendance",
-    "DESCRIPTION": "However if you wish to bring a gift, we’ll have a mailbox for cash envelopes per Mexican tradition or a gift card from target wal-mart or costco shop, would be greatly appreciated"
+    "DESCRIPTION": "However, if you would like to bring a gift, we will have a card box available for monetary gifts in keeping with Mexican tradition. Gift cards to Target, Walmart, or Costco would also be greatly appreciated."
   },
   "SECTION_LOCATION": {
     "INTRO": "Wedding and reception will be held in",
     "LOCATION": "Hacienda Murmullo de Agua",
-    "ADDRESS": "Address: Valle de Guadalupe, BC",
-    "HOW_TO_GET": "How to get there?",
+    "ADDRESS": "Address: 22766 Francisco Zarco, Ensenada, BC",
+    "HOW_TO_GET_TITLE": "How to get there?",
+    "HOW_TO_GET_LINK": "Get Directions Here",
     "WHERE_TO_STAY": "Where to stay?",
     "STAY_DESCRIPTION": "We greatly appreciate that you have chosen to celebrate with us, and we know it’s a long way home after a party, for those want to stay in Valle de Guadalupe we have a few options below:",
     "HOTELS": [
