@@ -205,8 +205,15 @@
   }
 }
 
+/* SMALL DESKTOP */
+@media (min-width: 1400px) {
+  :host ::ng-deep .footer-title {
+    font-size: 3.5rem;
+  }
+}
+
 /* LARGE DESKTOP */
-@media (min-width: 1440px) {
+@media (min-width: 1540px) {
   :host ::ng-deep .footer-title {
     font-size: 5rem;
   }
