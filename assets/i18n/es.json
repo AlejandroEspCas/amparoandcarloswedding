@@ -7,7 +7,7 @@
   },
   "SECTION_HISTORY": {
     "TITLE": "Nuestra historia",
-    "DESCRIPTION_ONE": "Fue en diciembre de 2014 cuando intercambiamos un “gusto en conocerte” y en agosto de 2017 fue cuando nuestros caminos se volvieron a cruzar, después de una cita muy patriótica de 16 de septiembre  los fines de semana fueron nuestros y fuimos inseparables.",
+    "DESCRIPTION_ONE": "Fue en diciembre de 2014 cuando nos conocimos por primera vez; comenzó con un rápido “mucho gusto”. Años después, en agosto de 2017, nuestros caminos se volverían a cruzar y, después de una cita muy patriótica el 16 de septiembre, rápidamente nos volveríamos inseparables.",
     "DESCRIPTION_TWO": "No tardamos mucho en amarnos incondicionalmente y convertirnos en una familia junto con nuestra hija Sofía.",
     "DESCRIPTION_THREE": "8 años después de tantas aventuras y buenos momentos estamos complacidos en invitarlos a la celebración de nuestro amor."
   },
@@ -19,7 +19,10 @@
     },
     "DRESS_CODE": {
       "TITLE": "Código de vestimenta",
-      "DESCRIPTION": "Vestimenta formal, Mujeres : bienvenidos vestidos midi y largos, con flores o románticos (la decisión es tuya) por favor evitar blanco o rojo. Hombres: formal, saco y corbata "
+      "DESCRIPTION_ONE": "Vestimenta formal",
+      "DESCRIPTION_TWO": "Mujeres: bienvenidos vestidos midi y largos, con flores o románticos (la decisión es tuya).",
+      "DESCRIPTION_THREE": "Hombres: formal, saco y corbata.",
+      "DESCRIPTION_FOUR": "Por favor evitar los colores rojo y blanco."
     },
     "RECEPTION": {
       "TITLE": "Recepción",
@@ -46,13 +49,14 @@
   },
   "SECTION_GIFTS": {
     "TITLE": "Nuestro mayor regalo es contar con tu asistencia",
-    "DESCRIPTION": "Sin embargo si gustan hacernos un obsequio lo apreciamos mucho en la lluvia de sobres o en forma de tarjetas de regalo: Target, Walmart o Costco 🤍✉️"
+    "DESCRIPTION": "Sin embargo si gustan hacernos un obsequio lo apreciamos mucho en la lluvia de sobres o en forma de tarjetas de regalo: Target, Walmart o Costco"
   },
   "SECTION_LOCATION": {
     "INTRO": "La ubicación de la ceremonia y recepción será en",
     "LOCATION": "Hacienda Murmullo de Agua",
-    "ADDRESS": "Dirección: 22766 Francisco Zarco, B.C.",
-    "HOW_TO_GET": "¿Cómo llegar?",
+    "ADDRESS": "Dirección: 22766 Francisco Zarco, Ensenada, BC",
+    "HOW_TO_GET_TITLE": "¿Cómo llegar?",
+    "HOW_TO_GET_LINK": "Obtenga direcciones aquí",
     "WHERE_TO_STAY": "¿Dónde hospedarme?",
     "STAY_DESCRIPTION": "Sabemos que es camino largo de regreso a casa y agradecemos muchísimo el que nos acompañen en nuestro día especial fuera de la ciudad. Para quienes desean hospedarse en Valle de Guadalupe aquí algunas de las opciones:",
     "HOTELS": [
