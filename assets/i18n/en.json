@@ -15,7 +15,7 @@
     "TITLE": "WEDDING & RECEPTION",
     "CEREMONY": {
       "TITLE": "Wedding",
-      "DESCRIPTION": "Our wedding will be held in Hacienda murmullo de agua, Valle de Guadalupe, BC"
+      "DESCRIPTION": "Our wedding will be held in Hacienda Murmullo de Agua, Valle de Guadalupe, BC"
     },
     "DRESS_CODE": {
       "TITLE": "Dress code",
@@ -31,7 +31,7 @@
   },
   "SECTION_CRONOGRAM": {
     "TITLE": "Event Schedule",
-    "DATE": "Saturday, October 10, 2026",
+    "DATE": "Saturday, October 10 2026",
     "ITEMS": [
       {
         "TIME": "5:00 PM",

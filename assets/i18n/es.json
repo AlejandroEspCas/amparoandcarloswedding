@@ -15,7 +15,7 @@
     "TITLE": "CEREMONIA Y RECEPCIÓN",
     "CEREMONY": {
       "TITLE": "Ceremonia",
-      "DESCRIPTION": "La ceremonia de unión será en la Hacienda murmullo de agua, Valle de Guadalupe, BC"
+      "DESCRIPTION": "La ceremonia de unión será en la Hacienda Murmullo de Agua, Valle de Guadalupe, BC"
     },
     "DRESS_CODE": {
       "TITLE": "Código de vestimenta",
@@ -31,7 +31,7 @@
   },
   "SECTION_CRONOGRAM": {
     "TITLE": "Cronograma del evento",
-    "DATE": "Sábado 10 de octubre 2026",
+    "DATE": "Sábado, 10 de Octubre del 2026",
     "ITEMS": [
       {
         "TIME": "5:00 PM",
