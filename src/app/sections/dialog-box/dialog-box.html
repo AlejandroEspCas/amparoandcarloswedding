@@ -1,0 +1,55 @@
+<div class="custom-modal">
+  <h1 class="modal-title">RSVP</h1>
+
+  <form [formGroup]="form" (ngSubmit)="enviar()" class="modal-form">
+    <div class="form-group">
+      <label for="nombre">Nombre completo</label>
+      <input
+        id="nombre"
+        type="text"
+        formControlName="nombre"
+        placeholder="Tu nombre completo"
+        [class.error]="form.get('nombre')?.invalid && form.get('nombre')?.touched"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="asistencia">Asistiras?</label>
+      <select id="asistencia" formControlName="asistencia">
+        <option value="si">Si</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+
+    <div class="extra-fields" [class.is-visible]="form.get('asistencia')?.value === 'si'">
+      <div class="form-group">
+        <label for="invitados">Numero de invitados</label>
+        <input
+          id="invitados"
+          type="number"
+          formControlName="invitados"
+          placeholder="0"
+          [class.error]="form.get('invitados')?.invalid && form.get('invitados')?.touched"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="nombre">Alergias</label>
+        <input
+          id="alergias"
+          type="text"
+          formControlName="alergias"
+          placeholder="Alguna alergia que tengas"
+          [class.error]="form.get('alergias')?.invalid && form.get('alergias')?.touched"
+        />
+      </div>
+    </div>
+  </form>
+
+  <div class="button-container">
+    <button type="submit" class="btn-submit" [disabled]="form.invalid" (click)="enviar()">
+      Enviar
+    </button>
+    <button type="button" class="btn-cancel" (click)="cancelar()">Cancelar</button>
+  </div>
+</div>

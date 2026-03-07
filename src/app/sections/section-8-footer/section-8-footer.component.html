@@ -72,13 +72,13 @@
 
       <!-- RSVP BUTTON -->
       <div class="rsvp-wrapper">
-        <a href="https://wa.me/qr/DH65B6PMS7KLB1" class="rsvp-button">
+        <button class="rsvp-button" (click)="openDialog()">
           <app-dynamic-text
             textKey="SECTION_FOOTER.RSVP"
             type="span"
             customClass="rsvp-text"
           ></app-dynamic-text>
-        </a>
+        </button>
       </div>
     </div>
   </div>

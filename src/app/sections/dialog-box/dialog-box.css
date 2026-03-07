@@ -1,0 +1,105 @@
+.custom-modal {
+  width: 70vh;
+  height: 80vh;
+  padding: 7vh;
+  gap: 2vh;
+  background-color: #e8e4dc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 8vh;
+  font-family: 'Sharis';
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-size: 2vh;
+  font-family: 'Optima';
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  font-family: 'Optima';
+}
+
+.extra-fields {
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+  overflow: hidden;
+  transform: translateY(-10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2vh;
+
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease,
+    max-height 0.4s ease,
+    visibility 0.4s;
+}
+
+.extra-fields.is-visible {
+  opacity: 1;
+  visibility: visible;
+  max-height: 500px;
+  transform: translateY(0);
+}
+
+/* El botón en medio como pediste */
+.button-container {
+  display: flex;
+  flex-direction: column; /* Apilados */
+  align-items: center; /* Centrados horizontalmente */
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-submit {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  max-width: 200px;
+  font-family: 'Optima';
+}
+
+.btn-submit:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-cancel {
+  background: none;
+  border: none;
+  color: #666;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Optima';
+}
