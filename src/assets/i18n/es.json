@@ -95,5 +95,19 @@
         "EMAIL": "amps.espinoza@gmail.com"
       }
     ]
+  },
+  "RSVP": {
+    "TITLE": "RSVP",
+    "LABEL_NAME": "Nombre completo",
+    "LABEL_EMAIL": "Correo",
+    "INPUT_ASISTANCE": {
+      "LABEL": "Asistiras?",
+      "OPTION_ONE_LABEL": "Si",
+      "OPTION_TWO_LABEL": "No"
+    },
+    "LABEL_INVITES": "Numero de invitados",
+    "LABEL_ALERGIES": "Tienes alguna alergia?",
+    "BTN_SUBMIT": "Enviar",
+    "BTN_CANCEL": "Cancelar"
   }
 }

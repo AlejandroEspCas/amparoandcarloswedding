@@ -1,29 +1,50 @@
 <div class="custom-modal">
-  <h1 class="modal-title">RSVP</h1>
+  <app-dynamic-text textKey="RSVP.TITLE" type="h1" customClass="modal-title"></app-dynamic-text>
 
-  <form [formGroup]="form" (ngSubmit)="enviar()" class="modal-form">
+  <form [formGroup]="form" (ngSubmit)="submit()" class="modal-form">
     <div class="form-group">
-      <label for="nombre">Nombre completo</label>
+      <app-dynamic-text
+        textKey="RSVP.LABEL_NAME"
+        type="span"
+        customClass="form-label"
+      ></app-dynamic-text>
       <input
         id="nombre"
         type="text"
         formControlName="nombre"
-        placeholder="Tu nombre completo"
         [class.error]="form.get('nombre')?.invalid && form.get('nombre')?.touched"
       />
     </div>
 
     <div class="form-group">
-      <label for="asistencia">Asistiras?</label>
+      <app-dynamic-text
+        textKey="RSVP.INPUT_ASISTANCE.LABEL"
+        type="span"
+        customClass="form-label"
+      ></app-dynamic-text>
       <select id="asistencia" formControlName="asistencia">
-        <option value="si">Si</option>
-        <option value="no">No</option>
+        <option value="yes">
+          <app-dynamic-text
+            textKey="RSVP.INPUT_ASISTANCE.OPTION_ONE_LABEL"
+            type="span"
+          ></app-dynamic-text>
+        </option>
+        <option value="no">
+          <app-dynamic-text
+            textKey="RSVP.INPUT_ASISTANCE.OPTION_TWO_LABEL"
+            type="span"
+          ></app-dynamic-text>
+        </option>
       </select>
     </div>
 
-    <div class="extra-fields" [class.is-visible]="form.get('asistencia')?.value === 'si'">
+    <div class="extra-fields" [class.is-visible]="form.get('asistencia')?.value === 'yes'">
       <div class="form-group">
-        <label for="invitados">Numero de invitados</label>
+        <app-dynamic-text
+          textKey="RSVP.LABEL_INVITES"
+          type="span"
+          customClass="form-label"
+        ></app-dynamic-text>
         <input
           id="invitados"
           type="number"
@@ -34,12 +55,15 @@
       </div>
 
       <div class="form-group">
-        <label for="nombre">Alergias</label>
+        <app-dynamic-text
+          textKey="RSVP.LABEL_ALERGIES"
+          type="span"
+          customClass="form-label"
+        ></app-dynamic-text>
         <input
           id="alergias"
           type="text"
           formControlName="alergias"
-          placeholder="Alguna alergia que tengas"
           [class.error]="form.get('alergias')?.invalid && form.get('alergias')?.touched"
         />
       </div>
@@ -47,9 +71,11 @@
   </form>
 
   <div class="button-container">
-    <button type="submit" class="btn-submit" [disabled]="form.invalid" (click)="enviar()">
-      Enviar
+    <button [disabled]="form.invalid" class="btn-submit" (click)="submit()">
+      <app-dynamic-text textKey="RSVP.BTN_SUBMIT" type="span"></app-dynamic-text>
     </button>
-    <button type="button" class="btn-cancel" (click)="cancelar()">Cancelar</button>
+    <button type="button" class="btn-cancel" (click)="cancel()">
+      <app-dynamic-text textKey="RSVP.BTN_CANCEL" type="span"></app-dynamic-text>
+    </button>
   </div>
 </div>

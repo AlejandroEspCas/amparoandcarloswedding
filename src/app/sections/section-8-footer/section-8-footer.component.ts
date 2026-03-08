@@ -4,7 +4,7 @@ import { DynamicImageComponent } from '../../components/dynamic-image/dynamic-im
 import { DynamicTextComponent } from '../../components/dynamic-text/dynamic-text.component';
 import { ContactsLinksComponent } from '../../components/contacts-links/contacts-links.component';
 import { DialogBox } from '../dialog-box/dialog-box';
-import { MatDialog } from '@angular/material/dialog';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-section-8-footer',
@@ -18,6 +18,10 @@ export class Section8FooterComponent {
   private dialog = inject(MatDialog);
 
   openDialog(): void {
-    this.dialog.open(DialogBox);
+    const dialogConfig: MatDialogConfig = {
+      maxHeight: '100vh',
+      maxWidth: '100vh',
+    };
+    this.dialog.open(DialogBox, dialogConfig);
   }
 }
