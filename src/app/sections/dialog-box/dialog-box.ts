@@ -4,6 +4,8 @@ import { DynamicTextComponent } from '../../components/dynamic-text/dynamic-text
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { FormBuilder, Validators, ReactiveFormsModule } from '@angular/forms';
 import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
+import { TranslateService } from '@ngx-translate/core';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-dialog-box',
@@ -12,6 +14,11 @@ import emailjs, { type EmailJSResponseStatus } from '@emailjs/browser';
   styleUrl: './dialog-box.css',
 })
 export class DialogBox {
+  constructor(
+    private toastr: ToastrService,
+    private translate: TranslateService,
+  ) {}
+
   private fb = inject(FormBuilder);
 
   public dialogRef = inject(MatDialogRef<DialogBox>);
@@ -25,17 +32,17 @@ export class DialogBox {
   });
 
   submit(): void {
+    const title = this.translate.instant('FORM.TITLE');
+    const message = this.translate.instant('FORM.MESSAGE');
+    const value = (window as any).emailConfig;
     if (this.form.valid) {
       if (this.form.get('asistencia')?.value === 'no') {
         this.form.patchValue({ invitados: '0', alergias: '' });
       }
-      emailjs
-        .send('service_r6bjx7k', 'template_77oxcli', this.form.value, {
-          publicKey: 'bZc5bGOdEtc7F2ugI',
-        })
-        .then(() => {
-          console.log('Sent!');
-        });
+      emailjs.send(value.serviceNumber, value.templateNumber, this.form.value, {
+        publicKey: value.publicKey,
+      });
+      this.toastr.show(title, message);
       this.dialogRef.close(this.form.value);
       // console.log(this.form.value);
     }

@@ -109,5 +109,9 @@
     "LABEL_ALERGIES": "",
     "BTN_SUBMIT": "",
     "BTN_CANCEL": ""
+  },
+  "FORM": {
+    "TITLE": "",
+    "MESSAGE": ""
   }
 }

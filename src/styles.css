@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'tailwindcss';
+@import 'ngx-toastr/toastr';
 
 @font-face {
   font-family: 'Optima';
@@ -18,4 +19,36 @@
   --text-primary: #eeede7;
   --text-primary: #020202;
   --button-hover: #c4c2b9;
+}
+
+/* Contenedor principal */
+.ngx-toastr {
+  background-color: #eeede7 !important; /* Color de fondo oscuro */
+  border: 1px solid #020202 !important; /* Borde específico */
+  border-radius: 12px !important; /* Bordes redondeados */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Título del Toast */
+.toast-title {
+  font-family: 'Sharis';
+  font-size: 1rem;
+  color: #020202;
+}
+
+/* Mensaje del Toast */
+.toast-message {
+  font-family: 'Optima';
+  font-size: 0.9rem;
+  color: #020202;
+}
+
+/* Ajustar la separación del borde superior */
+.toast-top-center {
+  top: 1vw !important; /* Aumenta este valor según cuánta separación quieras */
+}
+
+#toast-container .ngx-toastr {
+  background-image: none !important;
+  padding: 1rem 1rem 1rem 1.5rem;
 }

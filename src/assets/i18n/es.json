@@ -109,5 +109,9 @@
     "LABEL_ALERGIES": "Tienes alguna alergia?",
     "BTN_SUBMIT": "Enviar",
     "BTN_CANCEL": "Cancelar"
+  },
+  "FORM": {
+    "TITLE": "Formulario enviado correctamente",
+    "MESSAGE": "¡Éxito!"
   }
 }

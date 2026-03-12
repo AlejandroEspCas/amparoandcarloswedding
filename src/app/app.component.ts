@@ -23,13 +23,13 @@ import { LanguageToggleComponent } from './components/language-toggle/language-t
     Section7LocationComponent,
     Section8FooterComponent,
     LanguageToggleComponent,
-    RouterOutlet
+    RouterOutlet,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
 export class App {
-  private translate = inject(TranslateService); 
+  private translate = inject(TranslateService);
 
   constructor() {
     this.translate.addLangs(['en', 'es']);
@@ -39,10 +39,10 @@ export class App {
     const browserLang = this.translate.getBrowserLang();
     this.translate.use(browserLang?.match(/en|es/) ? browserLang : 'es');
   }
-  
+
   protected readonly title = signal('amparoandcarloswedding');
   onClick() {
-    console.log('Clickable!!');
+    // console.log('Clickable!!');
 
     const currentLang = this.translate.currentLang;
     this.translate.use(currentLang === 'es' ? 'en' : 'es');
